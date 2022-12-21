@@ -1,24 +1,30 @@
 # Portfolio-Job-van-der-Laken
 
-## Inhoud
+## Inhoud:
 
-### Datacamp certificaten
+#### Datacamp certificaten
 
 - [Datacamp](#datacamp)
 
-### Foodboost
+#### Foodboost
 
 - [Simulaties](#simulaties)
 
 - [Classificatie Modellen](#classificatie-modellen)
 
-### Energie project
+#### Energie project
 
 - [Polynomial Features](#polynomial-features)
 
 - [LSTM](#lstm)
 
-### Communicatie vaardigheden
+#### Reflectie en evaluatie
+
+- [Reflectie en evaluatie](#reflectie-en-evaluatie)
+
+#### Communicatie vaardigheden
+
+- [Communicatie](#communicatie)
 
 Hallo wij gaan even lekker fortniten [Fortnite](#fortnite) met elkaar, hutssss!
 
@@ -34,6 +40,10 @@ Hallo wij gaan even lekker fortniten [Fortnite](#fortnite) met elkaar, hutssss!
 ## Polynomial features
 
 ## LSTM
+
+## Reflectie en evaluatie
+
+## Communicatie
 
 ## Fortnite
 
