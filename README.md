@@ -30,7 +30,7 @@ Hallo wij gaan even lekker fortniten [Fortnite](#fortnite) met elkaar, hutssss!
 
 
 #### verwijzen naar file test
-- [Nieuw LSTM Job.ipynb](LSTM.ipynb)
+- [LSTM file](LSTM.ipynb)
 
 ## Datacamp
 
