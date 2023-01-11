@@ -32,8 +32,8 @@ Hallo wij gaan even lekker fortniten [Fortnite](#fortnite) met elkaar, hutssss!
 #### verwijzen naar LSTM 
 - [LSTM file](LSTM26.ipynb)
 
-###$ verwijzen naar RFR&DTC
-- [RFR&DTC](RFR&DTC.ipynb)
+#### verwijzen naar RFC&DTC
+- [RFC&DTC](RFC&DTC.ipynb)
 
 ## Datacamp
 ![image](https://user-images.githubusercontent.com/120382552/211587932-549f9ec4-e7a7-4952-a514-21c0f8d538df.png)
