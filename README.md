@@ -6,14 +6,14 @@
 
 - [Datacamp](#datacamp)
 
-#### Research project
+#### Onderzoeken
 
 - [Research project](#research-project)
 - [Simulaties](#simulaties)
 
 - [Classificatie Modellen](#classificatie-modellen)
 
-#### Predictive Analysis
+#### Analyses
 
 - [Predictive analysis](#predictive-analysis)
 - 
@@ -21,15 +21,15 @@
 
 - [LSTM](#lstm)
 
-#### Domain knowledge 
+#### Domein kennis 
 
 - [Domain knowlledge](#domain-knowledge)
 
-#### Data preprocessing
+#### Data voorbereiden
 
 - [Data preprocessing](#data-preprocessing)
 
-#### Communication
+#### Communicatie
 
 - [Communication](#communication)
 
