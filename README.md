@@ -65,6 +65,12 @@
 
 ## Domain knowledge
 
+Om de modellen die zijn toegepast in het energie project voor onszelf beter te begrijpen, heeft iedereen in het groepje zijn/haar model in eigen woorden proberen uit te leggen. Ik heb dit gedaan voor het LSTM model. De informatie heb ik gevonden in zowel de literatuur (referentie staat in het document) als op het internet. Op deze manier heb ik mijn domein kennis weten te vergroten over LSTM's.  
+
+Om mijn domein kennis, naast de lessen van de minor, te vergroten heb ik ook veel geleerd van Josh Starmer van het YouTube kanaal StatQuest. Hier staan veel video's op over de basis gedachten achter de machine learning modellen. Ik had tijdens de minor veel interesse in hoe de modellen echt werkte. Onder andere de video's hebben mij goed geholpen om een basis idee te krijgen van de wiskunde achter bijvoorbeeld neurale netwerken en LSTM's.
+
+Hieronder staat de link naar de tekst over LSTM
+- [LSTM txt](#LSTM(1))
 ## Data preprocessing
 
 ## Communication
