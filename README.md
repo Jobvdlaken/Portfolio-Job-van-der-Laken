@@ -22,7 +22,7 @@
 
 #### Domain knowledge 
 
-- [Domain knowlledge](#domain knowledge)
+- [Domain knowlledge](#domain-knowledge)
 
 #### Data preprocessing
 
