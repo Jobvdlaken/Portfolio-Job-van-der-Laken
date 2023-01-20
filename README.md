@@ -26,7 +26,6 @@
 
 - [Communicatie](#communicatie)
 
-Hallo wij gaan even lekker fortniten [Fortnite](#fortnite) met elkaar, hutssss!
 
 
 #### verwijzen naar LSTM 
@@ -64,5 +63,5 @@ Hallo wij gaan even lekker fortniten [Fortnite](#fortnite) met elkaar, hutssss!
 
 ## Communicatie
 
-## Fortnite
+
 
