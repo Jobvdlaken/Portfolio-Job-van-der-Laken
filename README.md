@@ -9,16 +9,10 @@
 #### Onderzoeken
 
 - [Research project](#research-project)
-- [Simulaties](#simulaties)
-
-- [Classificatie Modellen](#classificatie-modellen)
 
 #### Analyses
 
 - [Predictive analysis](#predictive-analysis)
-- [Polynomial Features](#polynomial-features)
-
-- [LSTM](#lstm)
 
 #### Domein kennis 
 
@@ -32,11 +26,6 @@
 
 - [Communication](#communication)
 
-#### verwijzen naar LSTM 
-- [LSTM file](LSTM26.ipynb)
-
-#### verwijzen naar RFC&DTC
-- [RFC&DTC](RFC&DTC.ipynb)
 
 ## Datacamp
 ![image](https://user-images.githubusercontent.com/120382552/211587932-549f9ec4-e7a7-4952-a514-21c0f8d538df.png)
@@ -58,10 +47,11 @@
 ## Research project
 
 ## Predictive analysis
+- [RFC&DTC](RFC&DTC.ipynb)
 
-## Polynomial features
+- [Polynomial Features](#polynomial-features)
 
-## LSTM
+- [LSTM](LSTM26.ipynb)
 
 ## Domain knowledge
 
@@ -71,6 +61,7 @@ Om mijn domein kennis, naast de lessen van de minor, te vergroten heb ik ook vee
 
 Hieronder staat de link naar de tekst over LSTM
 - [LSTM txt](LSTMtxt.pdf)
+- 
 ## Data preprocessing
 
 ## Communication
