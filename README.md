@@ -16,7 +16,6 @@
 #### Analyses
 
 - [Predictive analysis](#predictive-analysis)
-- 
 - [Polynomial Features](#polynomial-features)
 
 - [LSTM](#lstm)
