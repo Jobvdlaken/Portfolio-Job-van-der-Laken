@@ -61,9 +61,9 @@ Om mijn domein kennis, naast de lessen van de minor, te vergroten heb ik ook vee
 
 Hieronder staat de link naar de tekst over LSTM
 - [LSTM txt](LSTMtxt.pdf)
-- 
-## Data preprocessing
 
+## Data preprocessing
+- [Simulatie Foodboost](SimulatieJ&O.ipynb)
 ## Communication
 
 
