@@ -1,32 +1,36 @@
 # Portfolio-Job-van-der-Laken
 
-## Inhoud:
+## Inhoudsopgave:
 
 #### Datacamp certificaten
 
 - [Datacamp](#datacamp)
 
-#### Foodboost
+#### Research project
 
+- [Research project](#research-project)
 - [Simulaties](#simulaties)
 
 - [Classificatie Modellen](#classificatie-modellen)
 
-#### Energie project
+#### Predictive Analysis
 
+- [Predictive analysis](#predictive-analysis)
 - [Polynomial Features](#polynomial-features)
 
 - [LSTM](#lstm)
 
-#### Reflectie en evaluatie
+#### Domain knowledge 
 
-- [Reflectie en evaluatie](#reflectie-en-evaluatie)
+- [Domain knowlledge](#domain knowledge)
 
-#### Communicatie vaardigheden
+#### Data preprocessing
 
-- [Communicatie](#communicatie)
+- [Data preprocessing](#data-preprocessing)
 
+#### Communication
 
+- [Communication](#communication)
 
 #### verwijzen naar LSTM 
 - [LSTM file](LSTM26.ipynb)
@@ -51,17 +55,18 @@
 ![image](https://user-images.githubusercontent.com/120382552/211595563-0a508d2b-4852-4af1-8809-549b5b439361.png)
 ![image](https://user-images.githubusercontent.com/120382552/211595704-f6eba98e-30fb-4a8e-8e48-d6a52351d376.png)
 
-## Simulaties
+## Research project
 
-## Classificatie modellen
+## Predictive analysis
 
 ## Polynomial features
 
 ## LSTM
 
-## Reflectie en evaluatie
+## Domain knowledge
 
-## Communicatie
+## Data preprocessing
 
+## Communication
 
 
