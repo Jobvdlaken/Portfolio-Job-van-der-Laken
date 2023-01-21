@@ -49,7 +49,7 @@
 ## Predictive analysis
 - [RFC&DTC](RFC&DTC2.ipynb)
 
-- [Polynomial Features](#polynomial-features)
+- [Polynomial Features](PolyF.ipynb)
 
 - [LSTM](LSTMgoed.ipynb)
 
