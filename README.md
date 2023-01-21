@@ -12,7 +12,7 @@
 
 #### Domein kennis 
 
-- [Domain knowlledge](#domain-knowledge)
+- [Domain knowledge](#domain-knowledge)
 
 #### Data voorbereiden
 
