@@ -47,7 +47,7 @@
 ## Research project
 
 ## Predictive analysis
-- [RFC&DTC](RFC&DTC.ipynb)
+- [RFC&DTC](RFC&DTC2.ipynb)
 
 - [Polynomial Features](#polynomial-features)
 
