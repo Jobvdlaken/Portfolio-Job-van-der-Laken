@@ -25,7 +25,8 @@
 #### Communicatie
 
 - [Communication](#communication)
-####
+- 
+#### Bronnen
 - [Bronnen](#bronnen)
 
 ## Datacamp
