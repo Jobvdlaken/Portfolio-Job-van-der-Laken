@@ -51,6 +51,7 @@
 ## Predictive analysis
 Hieronder staan de modellen waar ik het meest mee gewerkt heb tijdens de minor. RFC&DTC zijn de Random Forest Classifier en de DecisionTree Classifier, die zijn gebruikt voor het foodboost project. Daarna komen Polynomial Feautres en LSTM. Deze zijn gebruikt voor het energieproject.
 
+Voor het foodboost project is er als eerst geoefend met een kleinere dataset. In deze dataset zaten alleen de gerechten van Jamie Oliver en de Oost-europese gerechten. 
 - [RFC&DTC](RFC&DTC2.ipynb)
 
 - [Polynomial Features](PolyF.ipynb)
