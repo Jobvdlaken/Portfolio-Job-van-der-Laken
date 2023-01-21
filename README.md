@@ -82,7 +82,10 @@ Hieronder staat de link naar de tekst waarin ik geprobeerd heb om alles wat ik h
 
 - [LSTM](LSTMgoed.ipynb)
 ## Communication
+Binnen de minor vonden er ook af en toe presentaties plaats over de voortgang van de projectgroep. Ik heb zowel interne als externe presentaties gegeven. 
 
+- [Food Boost externe presentatie](FoodBoostEindpresentatie.pptx)
+- [Energie project externe presentatie 2](Energy2.pptx)
 ## Bronnen 
 Sagheer, A., & Kotb, M. (2019). Time series forecasting of petroleum production using deep LSTM recurrent networks. Neurocomputing, 323, 203-213. 
 
