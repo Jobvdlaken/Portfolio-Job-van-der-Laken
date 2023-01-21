@@ -52,7 +52,14 @@
 Hieronder staan de modellen waar ik het meest mee gewerkt heb tijdens de minor. RFC&DTC zijn de Random Forest Classifier en de DecisionTree Classifier, die zijn gebruikt voor het foodboost project. Daarna komen Polynomial Feautres en LSTM. Deze zijn gebruikt voor het energieproject.
 
 Voor het foodboost project is er als eerst geoefend met een kleinere dataset. In deze dataset zaten alleen de gerechten van Jamie Oliver en de Oost-europese gerechten.
-Het was de bedoeling om op basis van iemands zes lievelings gerechten(van Jamie Oliver of Oos-europees) te bepalen of zij het 7e gerecht wel of niet lekker vinden. Dit is een calssificatie probleem. Het gaat hier namelijk om het wel of niet lekker vinden van een gerecht, ookwel een 1(wel) of een 0(niet). Om deze reden heb ik twee classiferis toegepast Random Forest en de DecisionTree. 
+Het was de bedoeling om op basis van iemands zes lievelings gerechten (Jamie Oliver of Oos-europees) te bepalen of zij het 7e gerecht wel of niet lekker vinden. Het 7e gerecht was in dit geval gemengde geroosterde groenten. Dit is een calssificatie probleem. Het gaat hier namelijk om het wel of niet lekker vinden van een gerecht, ookwel een 1 (wel) of een 0 (niet). Om deze reden heb ik twee classiferis toegepast Random Forest en de DecisionTree. 
+
+In [Data preprocessing](#data-preprocessing) staat uitgelegd hoe de data is voorbereid voor alle modellen. 
+
+Om de modellen te evalueren is onder andere gebruik gemaakt van de accuracy, precision en recall. Dit zijn evaluatiemetrieken voor classificatieproblemen. Vooral door middel van de lessen van de minor en het een en ander zoeken op internet, heb ik geleerd hoe je classificatie modellen moet toepassen en evalueren. In het document staan de uitkomsten van de scores. Deze scores wil je zo hoog mogelijk hebben. Hierbij betekent een hoge accuracy dat het model veel goede voorspellingen heeft gedaan, een hoge precision betekent dat er vooral weinig false positvies zijn voorspelt en een hoge recall betekent dat er vooral weinig false negatives zijn voorspelt. Ook is er gebruik gemaakt van een receiver operating characteristic curve (ROC curve) in combinatie met de area under curve (AUC). Op manier kan je duidelijk zien welk model beter presteerd door middel van een plot. Des te groter de AUC score, des te beter het model.
+
+Uiteindelijk was het doel in dit project om de dataset uit te breiden en een zo hoog mogelijke precision te genereren, zo voorspel je bijna niet dat een persoon een gerecht wel lekker vindt, maar in werkelijkheid helemaal niet.
+
 - [RFC&DTC](RFC&DTC2.ipynb)
 
 - [Polynomial Features](PolyF.ipynb)
