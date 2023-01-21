@@ -47,6 +47,8 @@
 ## Research project
 
 ## Predictive analysis
+Hieronder staan de modellen waar ik het meest mee gewerkt heb tijdens de minor. RFC&DTC zijn de Random Forest Classifier en de DecisionTree Classifier, die zijn gebruikt voor het foodboost project. Daarna komen Polynomial Feautres en LSTM. Deze zijn gebruikt voor het energieproject.
+
 - [RFC&DTC](RFC&DTC2.ipynb)
 
 - [Polynomial Features](PolyF.ipynb)
@@ -66,4 +68,9 @@ Hieronder staat de link naar de tekst waarin ik geprobeerd heb om alles wat ik h
 - [Simulatie Foodboost](SimulatieJ&O.ipynb)
 ## Communication
 
+## Bronnen 
+Sagheer, A., & Kotb, M. (2019). Time series forecasting of petroleum production using deep LSTM recurrent networks. Neurocomputing, 323, 203-213. 
 
+Kim, T. Y., & Cho, S. B. (2019). Predicting residential energy consumption using CNN-LSTM neural networks. Energy, 182, 72-81. 
+
+Wang, J. Q., Du, Y., & Wang, J. (2020). LSTM based long-term energy consumption prediction with periodicity. Energy, 197, 117197. 
