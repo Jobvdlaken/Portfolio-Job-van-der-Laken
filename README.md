@@ -62,6 +62,13 @@ Uiteindelijk was het doel in dit project om de dataset uit te breiden en een zo 
 
 - [RFC&DTC](RFC&DTC2.ipynb)
 
+Aan het begin van het energieproject heb ik eerst geprobeerd om een voorspellend model te maken voor het energieverbruik met Polynomiale Regeressie. Bij het voorspellen van energieverbruik over tijd komt tijdreeksdata kijken, dit is dan ook wel een vorm van regressie. Daarom dacht ik dat Polynomiale Regressie kon gaan werken (dit is dus verder niet op literatuur gebaseerd). Toen ik ging zoeken naar informatie om dit toe te passen en kwam ik vaak het principe Polynomial Features tegen. Hiermee worden er namelijk nieuwe interactietermen gegenereerd met de features die mee worden gegeven. Op deze manier dacht ik mogelijk nieuwe verbanden te kunnen vinden, wat uiteindelijk kon leiden tot betere voorspellingen. 
+
+Om Polynomiale Regressie te evalueren is de R2 score gebruikt. Ik heb voor deze evaluatiemetriek gekozen, omdat ik te maken heb met een regressieprobleem en de R2 score dan ook vaak wordt gebruikt voor regressiemodellen. Aan het begin kwam de R2 score ontzettend laag uit (veel lager dan 0), wat betekent dat het model slecht presteert. Ik heb daarom de outliers uit de dataset gehaald, hoe dit is gedaan staat in [Data preprocessing](#data-preprocessing).
+
+Dan nog 
+
+
 - [Polynomial Features](PolyF.ipynb)
 
 - [LSTM](LSTMgoed.ipynb)
