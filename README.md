@@ -6,10 +6,6 @@
 
 - [Datacamp](#datacamp)
 
-#### Onderzoeken
-
-- [Research project](#research-project)
-
 #### Analyses
 
 - [Predictive analysis](#predictive-analysis)
@@ -46,7 +42,6 @@
 ![image](https://user-images.githubusercontent.com/120382552/211595563-0a508d2b-4852-4af1-8809-549b5b439361.png)
 ![image](https://user-images.githubusercontent.com/120382552/211595704-f6eba98e-30fb-4a8e-8e48-d6a52351d376.png)
 
-## Research project
 
 ## Predictive analysis
 Hieronder staan de modellen waar ik het meest mee gewerkt heb tijdens de minor. RFC&DTC zijn de Random Forest Classifier en de DecisionTree Classifier, die zijn gebruikt voor het foodboost project. Daarna komen Polynomial Feautres en LSTM. Deze zijn gebruikt voor het energieproject.
