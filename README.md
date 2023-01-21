@@ -51,7 +51,7 @@
 
 - [Polynomial Features](#polynomial-features)
 
-- [LSTM](LSTM!.ipynb)
+- [LSTM](LSTMgoed.ipynb)
 
 ## Domain knowledge
 
