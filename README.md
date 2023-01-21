@@ -66,7 +66,9 @@ Aan het begin van het energieproject heb ik eerst geprobeerd om een voorspellend
 
 Om Polynomiale Regressie te evalueren is de R2 score gebruikt. Ik heb voor deze evaluatiemetriek gekozen, omdat ik te maken heb met een regressieprobleem en de R2 score dan ook vaak wordt gebruikt voor regressiemodellen. Aan het begin kwam de R2 score ontzettend laag uit (veel lager dan 0), wat betekent dat het model slecht presteert. Ik heb daarom de outliers uit de dataset gehaald, hoe dit is gedaan staat in [Data preprocessing](#data-preprocessing).
 
-Dan nog 
+Na het verwijderen van de outliers en het maken van de voorspelling, kwam er alsnog een lage R2 uit, omdat Polynomiale Regressie met veel degrees soms onrealistische pieken of dalen voorspelt. Om deze reden heb ik het aantal degrees laag gezet en als er een onrealistische waarde voorspelt werd heb ik deze vervangen voor een voorspelling van de dag ervoor. 
+
+Ik ben mij ervan bewust dat dit veel gesleutel is aan het model, zeker het laatste gedeelte met het vervangen van onrealistische voorspellingen. Dit hebben wij als groep daarom ook niet gebruikt voor het verslag. Desalniettemin heb ik hier wel van kunnen leren hoe je Polynomiale Regressie kan toepassen in combinatie met Polynomial Features, maar dat di misschien niet de goede optie is voor dit soort data. 
 
 
 - [Polynomial Features](PolyF.ipynb)
