@@ -51,7 +51,7 @@ Het was de bedoeling om op basis van iemands zes lievelings gerechten (Jamie Oli
 
 In [Data preprocessing](#data-preprocessing) staat uitgelegd hoe de data is voorbereid voor alle modellen. 
 
-Om de modellen te evalueren is onder andere gebruik gemaakt van de accuracy, precision en recall. Dit zijn evaluatiemetrieken voor classificatieproblemen. Vooral door middel van de lessen van de minor en het een en ander zoeken op internet, heb ik geleerd hoe je classificatie modellen moet toepassen en evalueren. In het document staan de uitkomsten van de scores. Deze scores wil je zo hoog mogelijk hebben. Hierbij betekent een hoge accuracy dat het model veel goede voorspellingen heeft gedaan, een hoge precision betekent dat er vooral weinig false positvies zijn voorspelt en een hoge recall betekent dat er vooral weinig false negatives zijn voorspelt. Ook is er gebruik gemaakt van een receiver operating characteristic curve (ROC curve) in combinatie met de area under curve (AUC). Op manier kan je duidelijk zien welk model beter presteerd door middel van een plot. Des te groter de AUC score, des te beter het model.
+Om de modellen te evalueren is onder andere gebruik gemaakt van de accuracy, precision en recall. Dit zijn evaluatiemetrieken voor classificatieproblemen. Vooral door middel van de lessen van de minor en het een en ander zoeken op internet, heb ik geleerd hoe je classificatie modellen moet toepassen en evalueren. In het document staan de uitkomsten van de evaluatiemetrieken. Deze scores wil je zo hoog mogelijk hebben. Hierbij betekent een hoge accuracy dat het model veel goede voorspellingen heeft gedaan, een hoge precision betekent dat er vooral weinig false positvies zijn voorspelt en een hoge recall betekent dat er vooral weinig false negatives zijn voorspelt. Ook is er gebruik gemaakt van een receiver operating characteristic curve (ROC curve) in combinatie met de area under curve (AUC). Op manier kan je duidelijk zien welk model beter presteerd door middel van een plot. Des te groter de AUC score, des te beter het model. De scores zijn uiteindelijk best wel hoog, wat te verwachten was, omdat er bij het maken van de simulatie aan is gedacht om iemand alleen Jamie Oliver of alleen Oost-europese gerechten te geven.
 
 Uiteindelijk was het doel in dit project om de dataset uit te breiden en een zo hoog mogelijke precision te genereren, zo voorspel je bijna niet dat een persoon een gerecht wel lekker vindt, maar in werkelijkheid helemaal niet.
 
@@ -80,6 +80,8 @@ Hieronder staat de link naar de tekst waarin ik geprobeerd heb om alles wat ik h
 - [LSTM uitleg](LSTMtxt.pdf)
 
 ## Data preprocessing
+
+Voor het foodboost project is een simulatie van gebruikers gemaakt die of zeven lievelings gerechten hadden van Jamie Oliver of van zeven de Oost-europese gerechten. Dit is gedaan aan de hand van deze twee tags in onderstaand document, Simulatie Foodboost. Er is gekozen voor deze twee, omdat er bij beide niet al te veel gerechten bij hoorde en zij ook evenveel gerechten in de lijst hadden. Het was namelijk de bedoeling om een soort verband te creeëren, zodat het model niet voorspelt dat iemand een Oost-europees gerecht lekker vindt als diegene alleen van de Jamie Oliver gerechten houdt. Op deze manier hebben wij als projectgroep geoefend met de verschillende classificatie problemen. 
 - [Simulatie Foodboost](SimulatieJ&O.ipynb)
 
 - [RFC&DTC](RFC&DTC2.ipynb)
