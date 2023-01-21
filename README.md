@@ -25,7 +25,8 @@
 #### Communicatie
 
 - [Communication](#communication)
-
+####
+- [Bronnen](#bronnen)
 
 ## Datacamp
 ![image](https://user-images.githubusercontent.com/120382552/211587932-549f9ec4-e7a7-4952-a514-21c0f8d538df.png)
