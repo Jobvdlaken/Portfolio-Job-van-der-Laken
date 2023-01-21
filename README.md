@@ -81,11 +81,15 @@ Hieronder staat de link naar de tekst waarin ik geprobeerd heb om alles wat ik h
 - [RFC&DTC](RFC&DTC2.ipynb)
 
 - [LSTM](LSTMgoed.ipynb)
+
 ## Communication
-Binnen de minor vonden er ook af en toe presentaties plaats over de voortgang van de projectgroep. Ik heb zowel interne als externe presentaties gegeven. 
+Binnen de minor vonden er ook af en toe presentaties plaats over de voortgang van de projectgroep. Ik heb zowel interne als externe presentaties gegeven. De twee externe presentaties waarbij ik onder andere spreker was, staan hieronder gelinkt. De eind presentatie van het Food Boost project deed ik samen met Sjoerd en de 2e externe presentatie van het energie project, deed ik met Senna en Sjoerd. Daarnaast heb ik ook veel interne presentaties gegeven, af en toe met een groepsgenoten en af en toe alleen.
 
 - [Food Boost externe presentatie](FoodBoostEindpresentatie.pptx)
 - [Energie project externe presentatie 2](Energy2.pptx)
+
+Voor het verslag heb ik het deel van de LSTM uitgelegd met de resultaten en de bijbehorende analyse. Daarnaast heb ik ook het deel evalueren in de methode en de conclusie geschreven.
+
 ## Bronnen 
 Sagheer, A., & Kotb, M. (2019). Time series forecasting of petroleum production using deep LSTM recurrent networks. Neurocomputing, 323, 203-213. 
 
