@@ -26,7 +26,7 @@
 
 - [Communication](#communication)
 
-#### Bronnen
+#### Literatuur
 - [Bronnen](#bronnen)
 
 ## Datacamp
