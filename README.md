@@ -77,6 +77,10 @@ Hieronder staat de link naar de tekst waarin ik geprobeerd heb om alles wat ik h
 
 ## Data preprocessing
 - [Simulatie Foodboost](SimulatieJ&O.ipynb)
+
+- [RFC&DTC](RFC&DTC2.ipynb)
+
+- [LSTM](LSTMgoed.ipynb)
 ## Communication
 
 ## Bronnen 
