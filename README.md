@@ -47,7 +47,7 @@
 Hieronder staan de modellen waar ik het meest mee gewerkt heb tijdens de minor. RFC&DTC zijn de Random Forest Classifier en de DecisionTree Classifier, die zijn gebruikt voor het foodboost project. Daarna komen Polynomial Feautres en LSTM. Deze zijn gebruikt voor het energieproject.
 
 Voor het foodboost project is er als eerst geoefend met een kleinere dataset. In deze dataset zaten alleen de gerechten van Jamie Oliver en de Oost-europese gerechten.
-Het was de bedoeling om op basis van iemands zes lievelings gerechten (Jamie Oliver of Oos-europees) te bepalen of zij het 7e gerecht wel of niet lekker vinden. Het 7e gerecht was in dit geval gemengde geroosterde groenten. Dit is een calssificatie probleem. Het gaat hier namelijk om het wel of niet lekker vinden van een gerecht, ookwel een 1 (wel) of een 0 (niet). Om deze reden heb ik twee classiferis toegepast Random Forest en de DecisionTree. 
+Het was de bedoeling om op basis van iemands zes lievelings gerechten (Jamie Oliver of Oos-europees) te bepalen of zij het gerecht gemengde geroosterde groenten wel of niet lekker vinden. Dit is een calssificatie probleem. Het gaat hier namelijk om het wel of niet lekker vinden van een gerecht, ookwel een 1 (wel) of een 0 (niet). Om deze reden heb ik twee classiferis toegepast Random Forest en de DecisionTree. 
 
 In [Data preprocessing](#data-preprocessing) staat uitgelegd hoe de data is voorbereid voor alle modellen. 
 
@@ -57,7 +57,7 @@ Uiteindelijk was het doel in dit project om de dataset uit te breiden en een zo 
 
 - [RFC&DTC](RFC&DTC2.ipynb)
 
-Aan het begin van het energieproject heb ik eerst geprobeerd om een voorspellend model te maken voor het energieverbruik met Polynomiale Regeressie. Bij het voorspellen van energieverbruik over tijd komt tijdreeksdata kijken, dit is dan ook wel een vorm van regressie. Daarom dacht ik dat Polynomiale Regressie kon gaan werken (dit is dus verder niet op literatuur gebaseerd). Toen ik ging zoeken naar informatie om dit toe te passen en kwam ik vaak het principe Polynomial Features tegen. Hiermee worden er namelijk nieuwe interactietermen gegenereerd met de features die mee worden gegeven. Op deze manier dacht ik mogelijk nieuwe verbanden te kunnen vinden, wat uiteindelijk kon leiden tot betere voorspellingen. 
+Aan het begin van het energieproject heb ik eerst geprobeerd om een voorspellend model te maken voor het energieverbruik per dag met Polynomiale Regeressie. Bij het voorspellen van energieverbruik over tijd komt tijdreeksdata kijken, dit is een vorm van regressie. Daarom dacht ik dat Polynomiale Regressie kon gaan werken (dit is dus verder niet op literatuur gebaseerd). Toen ik ging zoeken naar informatie om dit toe te passen, kwam ik vaak het principe Polynomial Features tegen. Hier worden namelijk nieuwe interactietermen mee gegenereerd, met de features die mee worden gegeven. Op deze manier dacht ik mogelijk nieuwe verbanden te kunnen vinden, wat uiteindelijk kon leiden tot betere voorspellingen. De features die zijn meegegeven: de dag van het jaar en 4 dummyvariabelen van welk seizoen het is. 
 
 Om Polynomiale Regressie te evalueren is de R2 score gebruikt. Ik heb voor deze evaluatiemetriek gekozen, omdat ik te maken heb met een regressieprobleem en de R2 score dan ook vaak wordt gebruikt voor regressiemodellen. Aan het begin kwam de R2 score ontzettend laag uit (veel lager dan 0), wat betekent dat het model slecht presteert. Ik heb daarom de outliers uit de dataset gehaald, hoe dit is gedaan staat in [Data preprocessing](#data-preprocessing).
 
@@ -68,6 +68,7 @@ Ik ben mij ervan bewust dat dit veel gesleutel is aan het model, zeker het laats
 
 - [Polynomial Features](PolyF.ipynb)
 
+Uiteindelijk heb ik LSTM toegepast om het energieverbruik per dag te kunnen voorspellen. 
 - [LSTM](LSTMgoed.ipynb)
 
 ## Domain knowledge
@@ -98,7 +99,7 @@ Binnen de minor vonden er ook af en toe presentaties plaats over de voortgang va
 Voor het verslag heb ik het deel van de LSTM uitgelegd met de resultaten en de bijbehorende analyse. Daarnaast heb ik ook het deel evalueren in de methode en de conclusie geschreven.
 
 ## Bronnen 
-Sagheer, A., & Kotb, M. (2019). Time series forecasting of petroleum production using deep LSTM recurrent networks. Neurocomputing, 323, 203-213. 
+
 
 Kim, T. Y., & Cho, S. B. (2019). Predicting residential energy consumption using CNN-LSTM neural networks. Energy, 182, 72-81. 
 
