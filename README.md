@@ -94,7 +94,14 @@ Voor het foodboost project is een simulatie van gebruikers gemaakt die zeven lie
 
 - [Simulatie Foodboost](SimulatieJ&O.ipynb)
 
+Het voorbereiden van de data uit de simulatie van Jamie Oliver en Oost-europese gerechten, is gedaan met de train_test_split functie. Deze functie verdeeld de data in train- en testdata. Ik heb gekozen voor een train size van 80% en en testsize van 20%. Daarna heb ik een beetje geofend met RandomizedSearchCV om de hyperparemters te tunen voor het Random Forest model. 
+
 - [RFC&DTC](RFC&DTC2.ipynb)
+Voor Polynomiale Regressie zijn 5 features gebruikt, de dag van het jaar en 4 dummyvariabelen van welk seizoen het is in het jaar. Voor de eerste feature is er een range van 365 getallen toegevoegd aan het dataframe, zodat de getallen per rij oplopen. Daarna is er een functie gemaakt die op basis van de dagen in het jaar een 1 (wel) of een 0 (niet) neerzet afhankelijk van welk seizoen het is. 
+
+De target variabelen was in dit geval het energieverbruik per dag en hiervan zijn de outliers eruit gehaald. Dit is gedaan met het gemiddelde en de standaarddeviatie per seizoen. Als een waarde meer dan 3 standaarddeviaties afwijkt van het gemiddelde, dan wordt deze vervangen met het energeiverbruik van de dag ervoor. In onderstaand document RFC&DTC is de functie add_season en verwijder_outlier te zien. 
+- [Polynomial Features](PolyF.ipynb)
+
 
 - [LSTM](LSTMgoed.ipynb)
 
