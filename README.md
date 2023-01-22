@@ -73,7 +73,7 @@ LSTM's werken goed op sequentiële data als energieverbruik over tijd, omdat er 
 
 Het trainen is gedaan met 100 epochs en een hidden size van 35. Dit is niet heel veel, maar met meer epochs en een grotere hiddensize, ging het model heel erg overfitten op de trainingsdata. Nadat de voorspelling is gemaakt op de stationaire data, is dit eerst terug gezet naar het voorspelde energieverbruik om dit met het echte verbruik te vergelijken. Voor het evalueren van het model zijn verschillende scores gebruikt. De MSE, RMSE en MAE kwamen vooral vaak in de literatuur voor als evalutatiemetrieken. Daarnaast is ook de R2 score weer gebruikt omdat deze goed past bij het evalueren van regressiemodellen. 
 
-De voorspelling zijn gemaakt voor huisje 26, omdat deze een realistsich verloop had over het jaar. In de winter werd veel energie verbruikt en in de zomer weinig. De R2 score die uit dit model kwam was 0.26 wat misschien erg laag lijkt, maar in vergelijking met de andere huisjes nog best hoog. Dit was te zien aan de gemiddelde R2 score van alle huishoudens.
+De voorspelling zijn gemaakt voor huisje 26, omdat deze een verloop had zonder onverwachte pieken of dalen over het jaar. In de winter werd veel energie verbruikt en in de zomer weinig. De R2 score die uit dit model kwam was 0.26 wat misschien erg laag lijkt, maar in vergelijking met de andere huisjes nog best hoog. Dit was te zien aan de gemiddelde R2 score van alle huishoudens.
 
 De gemiddelde scores van alle huisjes zijn berekend en de R2 scores zijn overzichtelijk geplot, zodat dit gebruikt kon worden in het verslag.
 
