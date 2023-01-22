@@ -65,10 +65,18 @@ Na het verwijderen van de outliers en het maken van de voorspelling, kwam er als
 
 Ik ben mij ervan bewust dat dit veel gesleutel is aan het model, zeker het laatste gedeelte met het vervangen van onrealistische voorspellingen. Dit hebben wij als groep daarom ook niet gebruikt voor het verslag. Desalniettemin heb ik hier wel van kunnen leren hoe je Polynomiale Regressie kan toepassen in combinatie met Polynomial Features, maar dat dit misschien niet de goede optie is voor deze data. 
 
-
 - [Polynomial Features](PolyF.ipynb)
 
-Uiteindelijk heb ik LSTM toegepast om het energieverbruik per dag te kunnen voorspellen. 
+Uiteindelijk heb ik Long Short Term Memory (LSTM) toegepast om het energieverbruik per dag proberen te voorspellen. In een studie uit 2020 werd LSTM ook toegepast voor het voorspellen van energeiverbruik, waaruit bleek dat LSTM een grote potentie heeft om goede voorspellingen te maken (Wang, 2020). Een studie uit 2019 paste een CNN-LSTM toe om energieverbruik te voorspellen, zij stelde CNN-LSTM voor voor een robuuste en efficiënte voorspelling (Kim, 2019). 
+
+LSTM's werken goed op sequentiële data als energieverbruik over tijd, omdat er tijdens het maken van een voorspelling rekening wordt gehouden met voorgaande inputs, anders dan het individueel behandelen van elke input. Het toepassen heb ik eerst gedaan met Tensorflow, maar hierdoor ging de server erg vastlopen, waarna ik PyTorch heb gebruikt. Ik heb veel op het internet gezocht naar, hoe ik dit moest gebruiken om het model te maken. Daardoor wist ik hoe de LSTM klasse in elkaar zit en heb ik deze zelf nagemaakt. Hoe de data voor LSTM is voorbereid staat in [Data preprocessing](#data-preprocessing). 
+
+Het trainen is gedaan met 100 epochs en een hidden size van 35. Dit is niet heel veel, maar met meer epochs en een grotere hiddensize, ging het model heel erg overfitten op de trainingsdata. Nadat de voorspelling is gemaakt op de stationaire data, is dit eerst terug gezet naar het voorspelde energieverbruik om dit met het echte verbruik te vergelijken. Voor het evalueren van het model zijn verschillende scores gebruikt: de MSE, RMSE en MAE kwamen vooral vaak in de literatuur voor als evalutatiemetrieken. Daarnaast is ook de R2 score weer gebruikt omdat deze goed past bij het evalueren van regressiemodellen. 
+
+De voorspelling zijn gemaakt voor huisje 26, omdat deze een realistsich verloop had over het jaar. In de winter werd veel energie verbruikt en in de zomer weinig. De R2 score die uit dit model kwam was 0.26 wat misschien erg laag lijkt, maar in vergelijking met de andere huisjes nog best hoog. Dit was te zien aan de gemiddelde R2 score van alle huishoudens.
+
+De gemiddelde scores van alle huisjes zijn berekend en de R2 scores zijn overzichtelijk geplot, zodat dit gebruikt kon worden in het verslag.
+
 - [LSTM](LSTMgoed.ipynb)
 
 ## Domain knowledge
@@ -77,7 +85,7 @@ Om de modellen die zijn toegepast in het energie project voor onszelf beter te b
 
 Om mijn domein kennis, naast de lessen van de minor, te vergroten heb ik ook veel geleerd van Josh Starmer van het YouTube kanaal StatQuest. Hier staan veel video's op over de basis gedachten achter de machine learning modellen. Ik had tijdens de minor veel interesse in hoe de modellen echt werken. Onder andere de video's hebben mij goed geholpen om een basis idee te krijgen van de wiskunde achter bijvoorbeeld neurale netwerken en LSTM's.
 
-Hieronder staat de link naar de tekst waarin ik geprobeerd heb om alles wat ik heb geleerd over LSTM uit te leggen.
+Hieronder staat de link naar de tekst waarin ik geprobeerd heb om alles wat ik heb geleerd over LSTM uit te leggen. 
 - [LSTM uitleg](LSTMtxt.pdf)
 
 ## Data preprocessing
