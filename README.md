@@ -90,7 +90,7 @@ Hieronder staat de link naar de tekst waarin ik geprobeerd heb om alles wat ik h
 
 ## Data preprocessing
 
-Voor het foodboost project is een simulatie van gebruikers gemaakt die zeven lievelings gerechten hadden van Jamie Oliver of van Oost-europese gerechten. Dit is gedaan aan de hand van de twee tags. Er is gekozen voor deze twee, omdat er bij beide niet al te veel gerechten bij hoorde en zij ook evenveel gerechten in de lijst hadden. Het was namelijk de bedoeling om een soort verband te creeëren, zodat het model niet voorspelt dat iemand een Oost-europees gerecht lekker vindt als diegene alleen van de Jamie Oliver gerechten houdt. Op deze manier hebben wij als projectgroep geoefend met de verschillende classificatie problemen. In onderstaand document is te zien hoe de simulatie is gemaakt.
+Voor het foodboost project is een simulatie van gebruikers gemaakt die zeven lievelings gerechten hadden van Jamie Oliver of van Oost-europese gerechten. Dit is gedaan aan de hand van de twee tags. Er is gekozen voor deze twee, omdat er bij beide niet al te veel gerechten bij hoorde en zij ook evenveel gerechten in de lijst hadden. Het was namelijk de bedoeling om een soort verband te creeëren, zodat het model niet voorspelt dat iemand een Oost-europees gerecht lekker vindt als diegene alleen van de Jamie Oliver gerechten houdt. Op deze manier hebben wij als projectgroep geoefend met de verschillende classificatie modellen. In onderstaand document is te zien hoe de simulatie is gemaakt.
 
 - [Simulatie Foodboost](SimulatieJ&O.ipynb)
 
