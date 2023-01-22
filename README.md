@@ -103,11 +103,12 @@ Voor Polynomiale Regressie zijn 5 features gebruikt, de dag van het jaar en 4 du
 De target variabelen was in dit geval het energieverbruik per dag en hiervan zijn de outliers eruit gehaald. Dit is gedaan met het gemiddelde en de standaarddeviatie per seizoen. Als een waarde meer dan 3 standaarddeviaties afwijkt van het gemiddelde, dan wordt deze vervangen met het energeiverbruik van de dag ervoor. In onderstaand document RFC&DTC is de functie add_season en verwijder_outlier te zien. 
 - [Polynomial Features](PolyF.ipynb)
 
-
+Om LSTM toe te passen op de data, is als eerst de data stationair gemaakt. Op deze manier veranderd het gemiddelde en de standaarddeviatie van de data niet over tijd, waardoor het model beter kan leren. De stationaire data is in de funtie df_to_X_y gestopt om een dataframe te maken. Zo is als feature het energieverbruik van elke dag in één hele week (7 dagen) gebruikt, waarbij de volgende dag na deze week de target variabele is. De data is daarna gesplist in de eerste 10 maanden als traindata en de laatste 2 maanden als testdata. Dan is het nog belangrijk dat de features en target variabele worden omgezet naar Torch variabelen om gebruik te maken van PyTorch.
+In onderstaand document bij het kopje 'Voorbereiden van data' is te zien hoe dit is gedaan.
 - [LSTM](LSTMgoed.ipynb)
 
 ## Communication
-Binnen de minor vonden er ook af en toe presentaties plaats over de voortgang van de projectgroep. Ik heb zowel interne als externe presentaties gegeven. De twee externe presentaties waarbij ik onder andere spreker was, staan hieronder gelinkt. De eind presentatie van het Food Boost project deed ik samen met Sjoerd en de 2e externe presentatie van het energie project, deed ik met Senna en Sjoerd. Daarnaast heb ik ook veel interne presentaties gegeven, af en toe met een groepsgenoten en af en toe alleen.
+Binnen de minor vonden er ook af en toe presentaties plaats over de voortgang van het project. Ik heb zowel interne als externe presentaties gegeven. De twee externe presentaties waarbij ik onder andere spreker was, staan hieronder gelinkt. De eind presentatie van het Food Boost project deed ik samen met Sjoerd en de 2e externe presentatie van het energie project, deed ik met Senna en Sjoerd. Daarnaast heb ik ook veel interne presentaties gegeven, af en toe met een van de groepsgenoten en af en toe alleen.
 
 - [Food Boost externe presentatie](FoodBoostEindpresentatie.pptx)
 - [Energie project externe presentatie 2](Energy2.pptx)
