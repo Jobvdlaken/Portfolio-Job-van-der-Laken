@@ -27,6 +27,7 @@
 
 ## Datacamp
 Tijdens de minor heb ik gewerkt aan mijn Datacamp opdrachten. De certificaten van de behaalde cursussen staan hieronder weergegeven. 
+
 ![image](https://user-images.githubusercontent.com/120382552/211587932-549f9ec4-e7a7-4952-a514-21c0f8d538df.png)
 ![image](https://user-images.githubusercontent.com/120382552/211588473-abae4d75-32b6-4ee7-9764-1b9319d5e208.png)
 ![image](https://user-images.githubusercontent.com/120382552/211588788-9ad885c2-5698-4cfe-9b5c-543f7b830e16.png)
