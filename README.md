@@ -3,7 +3,7 @@
 ## Inhoudsopgave:
 
 #### Datacamp certificaten
-
+Tijdens de minor heb ik gewerkt aan mijn Datacamp opdrachten. De certificaten van de behaalde cursussen staan hieronder weergegeven. 
 - [Datacamp](#datacamp)
 
 #### Analyses
