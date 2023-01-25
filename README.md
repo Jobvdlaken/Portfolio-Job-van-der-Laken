@@ -65,7 +65,7 @@ Om Polynomiale Regressie te evalueren is de R2 score gebruikt. Ik heb voor deze 
 
 Na het verwijderen van de outliers en het maken van de voorspelling, kwam er alsnog een lage R2 uit, omdat Polynomiale Regressie met veel degrees soms onrealistische pieken of dalen voorspelt. Om deze reden heb ik het aantal degrees laag gezet en als er een zo'n waarde voorspelt werd, heb ik deze vervangen voor een voorspelling van de dag ervoor. Door deze aanpassingen waren de R2 scores van sommige huisjes een stuk beter geworden (hoger dan 0.5). 
 
-Ik ben mij ervan bewust dat dit veel gesleutel is aan het model, zeker het laatste gedeelte met het vervangen van onrealistische voorspellingen. Dit hebben wij als groep daarom ook niet gebruikt voor het verslag. Desalniettemin heb ik hier wel van kunnen leren hoe je Polynomiale Regressie kan toepassen in combinatie met Polynomial Features, maar dat dit misschien niet de goede optie is voor deze data. 
+Ik ben mij ervan bewust dat dit veel gesleutel is aan het model, zeker het laatste gedeelte met het vervangen van onrealistische voorspellingen. Dit hebben wij als groep onder andere daarom ook niet gebruikt voor het verslag. Desalniettemin heb ik hier wel van kunnen leren hoe je Polynomiale Regressie kan toepassen in combinatie met Polynomial Features, maar dat dit misschien niet de goede optie is voor deze data. 
 
 - [Polynomial Features](PolyF.ipynb)
 
